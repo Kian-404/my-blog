@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "3e7f7970ab4a3a264a63d3ee04391b41"
+    "revision": "00330e23ebc77d2eff4e30fa3d2cdd83"
   },
   {
-    "url": "assets/css/0.styles.858c3dbc.css",
-    "revision": "64ab0f430a31c60c9f14f3322de9d7d4"
+    "url": "assets/css/0.styles.97c29921.css",
+    "revision": "3049cae06f79b38bb4b0c456df27f096"
   },
   {
     "url": "assets/img/search.83621669.svg",
@@ -82,16 +82,16 @@ self.__precacheManifest = [
     "revision": "5c11c232bed38b0a8b237c74af68473e"
   },
   {
-    "url": "assets/js/8.dddc3f6a.js",
-    "revision": "30d5887eecc475eb73098dd57ad3014f"
+    "url": "assets/js/8.bc6c1e7c.js",
+    "revision": "3f839d1ab81bb47f6c8bccbde885bbbd"
   },
   {
-    "url": "assets/js/9.285cd760.js",
-    "revision": "85f9d440719f7a2b9a3c22a5a59afa85"
+    "url": "assets/js/9.2a1ed2b6.js",
+    "revision": "43be3da5b74c6b10bbc0675601f12ad4"
   },
   {
-    "url": "assets/js/app.335d7635.js",
-    "revision": "e37f5babf46fdaa0ea8b0aee3cab2d59"
+    "url": "assets/js/app.a2514804.js",
+    "revision": "0bd229fd3b8d82cdc660f564e6681046"
   },
   {
     "url": "hero.png",
@@ -99,31 +99,31 @@ self.__precacheManifest = [
   },
   {
     "url": "HTML/index.html",
-    "revision": "4196fcd12574b11bd7f88cb48dde3aab"
+    "revision": "1d03a573dbcebb27bd986bdcd83e483d"
   },
   {
     "url": "index.html",
-    "revision": "8fcee03e5c16f1e87a743d33b25b4c1a"
+    "revision": "4ec53c00b63ae2cf71024916f6c1da78"
   },
   {
     "url": "interview.html",
-    "revision": "42caf1e14a99a922bbf1bb74e3f93b48"
+    "revision": "4135596be886e141e3a458353f0649d9"
   },
   {
     "url": "JavaScript/index.html",
-    "revision": "c2c74db37ccd1a2bfac5ab540d10748e"
+    "revision": "9a02b94a6602c78461f4a05317d506b3"
   },
   {
     "url": "LeetCode/1.html",
-    "revision": "f738781051fba8140e8659ab81975b52"
+    "revision": "78efa30b8f2c76a74ffc15cb460abc69"
   },
   {
     "url": "LeetCode/2.html",
-    "revision": "96e27199b1b062d7a2d4ace4d591ed9d"
+    "revision": "178d380c94ac9e10f01ce2b7a81d7ce4"
   },
   {
     "url": "LeetCode/index.html",
-    "revision": "ac1a481c12b08412799179380a4b70b7"
+    "revision": "41f6230c665f2fb67c190c43a2dc0399"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
