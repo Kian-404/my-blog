@@ -1,7 +1,8 @@
 module.exports = {
   title: "Kian's 小破站",
   description: "Kian's 小破站",
-  dest: './blog',
+  dest: '/blog',
+  base:'/blog',
   port: '8080',
   head: [
     ['link', { rel: 'icon', href: '/logo.gif' }]
