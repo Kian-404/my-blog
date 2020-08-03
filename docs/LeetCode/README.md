@@ -1,5 +1,5 @@
 ---
-prev: /LeetCode/1
+prev: /interview
 next: /LeetCode/1
 tags: 
   - 配置
@@ -16,6 +16,8 @@ tags:
 ::: tip 信息
 关于记录的模板
 :::
+
+# 题目名称
 
 ## :pencil: 题目描述
 > 这是一段题目描述
