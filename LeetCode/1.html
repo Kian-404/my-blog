@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>两数之和 | Kian&#39;s 小破站</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="/my-blog/logo.png">
+    <link rel="manifest" href="/my-blog/manifest.json">
+    <link rel="apple-touch-icon" href="/my-blog/logo.png">
+    <link rel="mask-icon" href="/my-blog/icons/safari-pinned-tab.svg" color="#3eaf7c">
+    <meta name="description" content="Kian's 小破站">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileImage" content="/logo.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    <link rel="preload" href="/my-blog/assets/css/0.styles.8119ecc0.css" as="style"><link rel="preload" href="/my-blog/assets/js/app.f39130a0.js" as="script"><link rel="preload" href="/my-blog/assets/js/2.c9e7aa35.js" as="script"><link rel="preload" href="/my-blog/assets/js/9.daaff1ee.js" as="script"><link rel="preload" href="/my-blog/assets/js/3.8dfe3fb5.js" as="script"><link rel="prefetch" href="/my-blog/assets/js/10.8722e39f.js"><link rel="prefetch" href="/my-blog/assets/js/11.624258dd.js"><link rel="prefetch" href="/my-blog/assets/js/12.633b89bd.js"><link rel="prefetch" href="/my-blog/assets/js/13.2b92c5b3.js"><link rel="prefetch" href="/my-blog/assets/js/14.665d6a2c.js"><link rel="prefetch" href="/my-blog/assets/js/4.e2705505.js"><link rel="prefetch" href="/my-blog/assets/js/5.aeb49012.js"><link rel="prefetch" href="/my-blog/assets/js/6.ef7946db.js"><link rel="prefetch" href="/my-blog/assets/js/7.3c64a9a7.js"><link rel="prefetch" href="/my-blog/assets/js/8.bc6c1e7c.js">
+    <link rel="stylesheet" href="/my-blog/assets/css/0.styles.8119ecc0.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/my-blog/" class="home-link router-link-active"><!----> <span class="site-name">Kian's 小破站</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/my-blog/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/my-blog/HTML/" class="nav-link">
+  HTML
+</a></div><div class="nav-item"><a href="/my-blog/JavaScript/" class="nav-link">
+  JavaScript
+</a></div><div class="nav-item"><a href="/my-blog/LeetCode/" class="nav-link router-link-active">
+  LeetCode
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/my-blog/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/my-blog/HTML/" class="nav-link">
+  HTML
+</a></div><div class="nav-item"><a href="/my-blog/JavaScript/" class="nav-link">
+  JavaScript
+</a></div><div class="nav-item"><a href="/my-blog/LeetCode/" class="nav-link router-link-active">
+  LeetCode
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>LeetCode</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/my-blog/LeetCode/" aria-current="page" class="sidebar-link">简介</a></li><li><a href="/my-blog/LeetCode/1.html" aria-current="page" class="active sidebar-link">两数之和</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/my-blog/LeetCode/1.html#题目描述" class="sidebar-link">📝 题目描述</a></li><li class="sidebar-sub-header"><a href="/my-blog/LeetCode/1.html#题目分析" class="sidebar-link">📈 题目分析</a></li><li class="sidebar-sub-header"><a href="/my-blog/LeetCode/1.html#题目解析" class="sidebar-link">💡 题目解析</a></li></ul></li><li><a href="/my-blog/LeetCode/2.html" class="sidebar-link">两数相加</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="两数之和"><a href="#两数之和" class="header-anchor">#</a> 两数之和</h1> <h2 id="题目描述"><a href="#题目描述" class="header-anchor">#</a> 📝 题目描述</h2> <blockquote><p>给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
+你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。</p></blockquote> <hr> <p>示例</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>给定 nums = [2, 7, 11, 15], target = 9
+因为 nums[0] + nums[1] = 2 + 7 = 9
+所以返回 [0, 1]
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h2 id="题目分析"><a href="#题目分析" class="header-anchor">#</a> 📈 题目分析</h2> <ul><li>首先对于数组应该进行遍历，找出第一项 num1,出栈</li> <li>然后用给定的 target 减去 num1 判断数组中是否存在 num2</li> <li>如果存在则返回对应的下标, 不存在继续下次遍历</li></ul> <h2 id="题目解析"><a href="#题目解析" class="header-anchor">#</a> 💡 题目解析</h2> <details class="custom-block details"><summary>点击查看代码</summary> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */</span>
+<span class="token keyword">var</span> <span class="token function-variable function">twoSum</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">nums<span class="token punctuation">,</span> target</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">let</span> i <span class="token operator">=</span> nums<span class="token punctuation">.</span>length<span class="token punctuation">;</span>
+  <span class="token keyword">while</span><span class="token punctuation">(</span>i <span class="token operator">&gt;</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">let</span> last <span class="token operator">=</span> nums<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>nums<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span>target <span class="token operator">-</span> last<span class="token punctuation">)</span> <span class="token operator">&gt;</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          <span class="token keyword">return</span> <span class="token punctuation">[</span>nums<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span>target <span class="token operator">-</span> last<span class="token punctuation">)</span><span class="token punctuation">,</span> nums<span class="token punctuation">.</span>length<span class="token punctuation">]</span>
+      <span class="token punctuation">}</span>
+      i<span class="token operator">--</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div></details></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">8/3/2020, 9:54:06 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/my-blog/LeetCode/" class="prev router-link-active">
+        简介
+      </a></span> <span class="next"><a href="/my-blog/LeetCode/2.html">
+        两数相加
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/my-blog/assets/js/app.f39130a0.js" defer></script><script src="/my-blog/assets/js/2.c9e7aa35.js" defer></script><script src="/my-blog/assets/js/9.daaff1ee.js" defer></script><script src="/my-blog/assets/js/3.8dfe3fb5.js" defer></script>
+  </body>
+</html>
